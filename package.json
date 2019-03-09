@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/brianfajardo/personal-site.git",
   "author": "Brian Fajardo <bmf5@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint-config-standard": "^18.2.0"
+  }
 }
