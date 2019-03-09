@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Head -->
     <head>
         <meta charset="UTF-8" />
         <meta
@@ -7,7 +8,27 @@
             content="width=device-width, initial-scale=1.0"
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Document</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="css/styles.css"
+            media="screen"
+        />
+        <title>Brian Fajardo</title>
     </head>
-    <body></body>
+
+    <!-- Body -->
+    <body>
+        <p class="test">Hello development!</p>
+    </body>
+
+    <!-- Live-reload script -->
+    <script>
+        document.write(
+            '<script src="http://' +
+                (location.host || 'localhost').split(':')[0] +
+                ':35729/livereload.js?snipver=1"></' +
+                'script>'
+        )
+    </script>
 </html>
