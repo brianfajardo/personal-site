@@ -9,7 +9,7 @@
     "scripts": {
         "dev": "concurrently \"yarn sass:watch\" \"yarn live-reload\"",
         "format": "prettier --write 'src/**/*'",
-        "sass:watch": "node-sass --watch src/scss/main.scss src/css/styles.css",
+        "sass:watch": "node-sass --output-style compressed --watch src/scss/main.scss src/css/styles.css",
         "live-reload": "livereload \"./src/index.html, ./src/css/styles.css\""
     },
     "devDependencies": {
