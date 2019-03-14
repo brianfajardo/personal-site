@@ -9,8 +9,8 @@
     "scripts": {
         "dev": "concurrently \"yarn sass:watch\" \"yarn live-reload\"",
         "format": "prettier --write 'src/**/*'",
-        "sass:watch": "node-sass --output-style compressed --watch src/scss/main.scss src/css/styles.css",
-        "live-reload": "livereload \"./src/index.html, ./src/css/styles.css\""
+        "sass:watch": "node-sass --output-style compressed --watch src/scss/main.scss src/styles.css",
+        "live-reload": "livereload \"./src/index.html, ./src/styles.css\""
     },
     "devDependencies": {
         "concurrently": "^4.1.0",
@@ -20,6 +20,7 @@
         "node-sass": "^4.11.0",
         "prettier": "1.16.4",
         "stylelint": "^9.10.1",
-        "stylelint-config-standard": "^18.2.0"
+        "stylelint-config-standard": "^18.2.0",
+        "stylelint-scss": "^3.5.4"
     }
 }
