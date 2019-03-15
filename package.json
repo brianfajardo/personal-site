@@ -8,7 +8,7 @@
     "license": "MIT",
     "scripts": {
         "dev": "concurrently \"yarn sass:watch\" \"yarn live-reload\"",
-        "format": "prettier --write 'src/**/*'",
+        "format": "prettier --write '**/*'",
         "sass:watch": "node-sass --output-style compressed --watch scss/main.scss styles.css",
         "live-reload": "livereload \"./src/index.html, ./src/styles.css\""
     },

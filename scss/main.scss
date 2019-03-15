@@ -4,6 +4,14 @@
     font-size: $sizeValue + rem;
 }
 
+// Fonts
+@font-face {
+    font-family: 'Pacifico';
+    font-display: auto;
+    src: local('Pacifico'),
+        url(https://fonts.googleapis.com/css?family=Pacifico) format('woff2');
+}
+
 html {
     font-size: 62.5%; /* Sets up the Base 10 stuff */
     min-height: 100vh;
