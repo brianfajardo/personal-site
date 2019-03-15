@@ -1,19 +1,19 @@
 # Personal Website
 
-My little static HTML personal website.
+My little static website.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
 
 ```
-Package manager: Yarn
-Node: 11.1.0
+Package manager: Yarn ^v1.13.0
+Node: ^v11.1.0
 ```
 
-### Installing
+### Dear future self, follow these installation instructions:
 
 Grab a copy of this repo if you haven't yet
 
@@ -33,7 +33,7 @@ Install dependencies with Yarn package manager
 yarn install
 ```
 
-Start Webpack Dev Server
+Start development (Node-Sass compiler & browser live reload)
 
 ```bash
 yarn dev
